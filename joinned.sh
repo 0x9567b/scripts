@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Check if a device is on the network (takes into account DHCP renewals)
+#Check if I device is connected to the network by identifying the mac address provided to it, repeating every 60 seconds. Built to help fault find my terrible smart phones connection issues.
+#(takes into account DHCP renewals)
 mac="FA:KE:AD:DR:ES:SS"
 address="192.168.1.*"
 while true; do
